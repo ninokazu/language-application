@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.android.soldesk.intro_slide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".main.SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Intro_slideActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".StudyLanguageActivity"
+            android:label="@string/title_activity_welcome"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".KorCategory.KorCategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.Chapter1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.Chapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.Chapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.Chapter4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.Chapter5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word.Korword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.Korgame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KorCategory.JapCategory"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".KorCategory.Tel"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".game.game1.MyGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.game1.PopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".game.game2.OneToFitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.game3.WordGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.JChapter1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.JChapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.JChapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.JChapter4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chapter.JChapter5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.game3.JapWordGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.Japgame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".word.Japword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.game3.WordPop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"
+            />
+        <activity
+            android:name=".game.game1.MyGamePop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"
+            />
+
+    </application>
+
+
+</manifest>

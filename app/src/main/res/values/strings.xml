@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">生초보\n한일기초</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">다음</string>
+    <string name="skip">건너뛰기</string>
+    <string name="start">시작하기</string>
+
+</resources>
